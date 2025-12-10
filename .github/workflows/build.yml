@@ -64,7 +64,7 @@ jobs:
             cgo_enabled: "0"
 
           # Linux 桌面版 arm64
-          - os: ubuntu-latest-arm64
+          - os: ubuntu-24.04-arm
             goos: linux
             goarch: arm64
             exe_ext: ""
@@ -88,7 +88,7 @@ jobs:
             cgo_enabled: "0"
 
           # ✅ 软路由 arm64（RK3588 / 树莓派等）
-          - os: ubuntu-latest
+          - os: ubuntu-24.04-arm
             goos: linux
             goarch: arm64
             exe_ext: ""
